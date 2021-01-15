@@ -3,24 +3,24 @@
   font-family: 'Barlow Condensed', sans-serif;
   font-weight: 400;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
   font-size: 112.5%;
+  line-height: 1.5;
 }
 
-header {
-  margin: 0;
-  background: lightblue;
-  padding: 20px;
+main {
+  padding: 0 15px;
 }
 
 header h1,
 a {
-  position: relative;
   margin: 0;
-  padding: 40px 10px;
+  padding: 10px 10px;
+  grid-area: 'nav';
 }
 
 h1 {
@@ -28,50 +28,51 @@ h1 {
   font-size: 3rem;
 }
 
-main {
-  padding: 0 15px;
-}
-
-img {
-  min-width: 20%;
-  min-height: 20%;
-  max-width: 30%;
-  max-height: 30%;
-}
-
-/*figcaption {
-    font-size: 1rem;
-}
-*/
-
-.shadow {
-  padding: 20px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background: white;
+h4 {
+  font-weight: 500;
 }
 
 ul {
   list-style-type: none;
 }
 
-li,
 p {
-  font-size: 300;
-}
-
-.external-link {
-  display: inline-block;
+  margin: 10px;
 }
 
 a {
   text-decoration: none;
   color: inherit;
 }
-
+/*figcaption {
+    font-size: 1rem;
+}
+*/
 footer {
   background: darkgray;
+  padding-top: 15px;
   display: grid;
   justify-content: center;
+}
+
+.main-header {
+  margin: 0;
+  background: lightblue;
+  grid-area: 'nav';
+}
+
+.shadow {
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  background: white;
+}
+
+.external-link {
+  display: inline-block;
+}
+
+.subtitle-section {
+  padding-bottom: 10px;
 }
 
 .footer-link {
@@ -82,4 +83,52 @@ footer {
 .footer-link i {
   display: flex;
   justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 500px) {
+  .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas:
+      'skill contact'
+      'about about'
+      'work school'
+      'footer footer';
+    grid-gap: 10px;
+  }
+
+  .skill {
+    text-align: center;
+    grid-area: skill;
+  }
+
+  .external {
+    margin-top: 10px;
+    grid-area: external;
+  }
+
+  .contact {
+    grid-area: contact;
+  }
+
+  .biog {
+    grid-column-start: span 3;
+    grid-area: about;
+  }
+  .biog h2 {
+    text-align: center;
+  }
+
+  .work {
+    grid-area: work;
+  }
+
+  .school {
+    grid-area: school;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
 }

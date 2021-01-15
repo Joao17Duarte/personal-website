@@ -21,8 +21,8 @@
     <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="main-header">
+      <nav class="main-header">
         <h1>João Duarte</h1>
         <a href="#contacts">Contacts</a>
         <a href="#about">About Me</a>
@@ -30,164 +30,160 @@
     </header>
     <main>
       <section>
-        <img src="images/_DSC1314.jpg" alt="" />
+        <img src="images/_DSC1314.jpg" alt="" height="250" width="100" />
         <!--
             <figcaption>Front-end Web Developer Trainee based in Hamburg</figcaption>
         -->
       </section>
-      <br />
 
-      <section class="shadow">
-        <h2>Knowledge & Interests</h2>
+      <div class="container">
+        
+        <section class="shadow skill">
+          <h2 class="title-section">Knowledge & Interests</h2>
 
-        <h4>Languages:</h4>
-        <ul>
-          <li>Portuguese</li>
-          <li>English</li>
-          <li>German</li>
-        </ul>
+          <h4>Languages:</h4>
+          <ul>
+            <li>Portuguese</li>
+            <li>English</li>
+            <li>German</li>
+          </ul>
 
-        <h4>Web Development:</h4>
-        <ul>
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>Javascript</li>
-          <li>Bootstrap 4</li>
-          <li>NodeJs</li>
-          <li>MongoDB</li>
-          <li>Git & Github</li>
-        </ul>
+          <h4>Web Development:</h4>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Javascript</li>
+            <li>Bootstrap 4</li>
+            <li>NodeJs</li>
+            <li>MongoDB</li>
+            <li>Git & Github</li>
+          </ul>
 
-        <h4>Interests:</h4>
-        <ul>
-          <li>Travel</li>
-          <li>Video Games</li>
-          <li>Metting with Friends</li>
-        </ul>
-      </section>
+          <h4>Interests:</h4>
+          <ul>
+            <li>Travel</li>
+            <li>Video Games</li>
+            <li>Metting with Friends</li>
+          </ul>
+        </section>
 
-      <br />
+        <section class="shadow biog" id="about">
+          <h2 class="title-section">About Me</h2>
+          <p>
+            Hi there, my name is João Duarte, 28 years old from Lisbon,
+            Portugal. In November 2017 I moved from Lisbon to Hamburg searching
+            for a better life opportunity. I worked in Hamburg as a
+            Massage-Therapist until March 2020, with the Pandemic the Hotel was
+            shut down and had me laid-off from my services.
+          </p>
 
-      <section class="shadow" id="contacts">
-        <h2>Get in touch</h2>
-        <ul>
-          <p>Phone</p>
-          <li>+49 1573 6238 748</li>
-          <p>Email Address</p>
-          <li>joaopd17@hotmail.com</li>
-        </ul>
-      </section>
-      <br />
-
-      <section class="shadow">
-        <h2>External Links</h2>
-        <br />
-        <a class="external-link" href="https://github.com/Joao17Duarte">
-          <i class="fab fa-github"></i> Github</a
-        >
-        <a class="external-link" href="https://codepen.io/jo-o-duarte">
-          <i class="fab fa-codepen"></i> Codepen</a
-        >
-        <a class="external-link" href="https://www.linkedin.com/">
-          <i class="fab fa-linkedin-in"></i> LinkedIn</a
-        >
-      </section>
-
-      <br />
-
-      <section class="shadow" id="about">
-        <h2>About Me</h2>
-        <p>
-          Hi there, my name is João Duarte, 28 years old from Lisbon, Portugal.
-          In November 2017 I moved from Lisbon to Hamburg searching for a better
-          life opportunity. I worked in Hamburg as a Massage-Therapist until
-          March 2020, with the Pandemic the Hotel was shut down and had me
-          laid-off from my services.
-        </p>
-        <br />
-        <p>
-          So I decided to change my career path. Started to study by myself Web
-          Development until the opportunity came up to do the Web Developer
-          Bootcamp Course from the School Neue Fische in Hamburg
-        </p>
-      </section>
-
-      <br />
-
-      <section class="shadow">
-        <h2>Work Experience</h2>
-        <ul>
-          <li>
-            <strong>Spa-Therapist </strong>
+          <p>
+            So I decided to change my career path. Started to study by myself
+            Web Development until the opportunity came up to do the Web
+            Developer Bootcamp Course from the School Neue Fische in Hamburg
+          </p>
+        </section>
+        <div class="flex-container">
+          <section class="shadow contact" id="contacts">
+            <h2 class="title-section">Get in touch</h2>
             <ul>
-              <li>Le Meridien Hamburg | 01 Nov 2019 - 19 Mar 2020</li>
+              <p>Phone</p>
+              <li>+49 1573 6238 748</li>
+              <p>Email Address</p>
+              <li>joaopd17@hotmail.com</li>
             </ul>
-          </li>
-          <li>
-            <strong>Spa-Therapist </strong>
+          </section>
+
+          <section class="shadow external">
+            <h2 class="title-section">External Links</h2>
+
+            <a class="external-link" href="https://github.com/Joao17Duarte">
+              <i class="fab fa-github"></i> Github</a
+            >
+
+            <a class="external-link" href="https://codepen.io/jo-o-duarte">
+              <i class="fab fa-codepen"></i> Codepen</a
+            >
+
+            <a class="external-link" href="https://www.linkedin.com/">
+              <i class="fab fa-linkedin-in"></i> LinkedIn</a
+            >
+          </section>
+        </div>
+
+
+          <section class="shadow work">
+            <h2 class="title-section">Work Experience</h2>
             <ul>
               <li>
-                Spa Groupe Europe, Emotion Spa Hamburg | 09 Dez 2017 - 31 Oct
-                2019
+                <h3 class="subtitle-section">Spa-Therapist</h3>
+                <ul>
+                  <li>Le Meridien Hamburg | 01 Nov 2019 - 19 Mar 2020</li>
+                </ul>
               </li>
-            </ul>
-          </li>
-          <li>
-            <strong>Receptionist </strong>
-            <ul>
               <li>
-                Escola de Massagem e Motricidade Aplicada - Lisbon | 03 Mar 2016
-                - 03 Nov 2017
+                <h3 class="subtitle-section">Spa-Therapist</h3>
+                <ul>
+                  <li>
+                    Spa Groupe Europe, Emotion Spa Hamburg | 09 Dez 2017 - 31
+                    Oct 2019
+                  </li>
+                </ul>
               </li>
-            </ul>
-          </li>
-          <li>
-            <strong>Spa-Therapist </strong>
-            <ul>
               <li>
-                Escola de Massagem e Motricidade Aplicada - Lisbon | 17 Sep 2014
-                - 03 Nov 2017
+                <h3 class="subtitle-section">Receptionist</h3>
+                <ul>
+                  <li>
+                    Escola de Massagem e Motricidade Aplicada - Lisbon | 03 Mar
+                    2016 - 03 Nov 2017
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <h3 class="subtitle-section">Spa-Therapist</h3>
+                <ul>
+                  <li>
+                    Escola de Massagem e Motricidade Aplicada - Lisbon | 17 Sep
+                    2014 - 03 Nov 2017
+                  </li>
+                </ul>
               </li>
             </ul>
-          </li>
-        </ul>
-      </section>
+          </section>
 
-      <br />
+          <section class="shadow school">
+            <h2 class="title-section">Education</h2>
 
-      <section class="shadow">
-        <h2>Education</h2>
+            <h3>Udemy</h3>
 
-        <h3>Udemy</h3>
+            <ul>
+              <li>The Modern JavaScript Bootcamp Course</li>
+              <li>The Web Development Bootcamp</li>
+              <li>HTML5 and CSS3 Fundamentals</li>
+            </ul>
 
-        <ul>
-          <li>The Modern JavaScript Bootcamp Course</li>
-          <li>The Web Development Bootcamp</li>
-          <li>HTML5 and CSS3 Fundamentals</li>
-        </ul>
+            <h3>School</h3>
 
-        <h3>School</h3>
-
-        <ul>
-          <li>Escola de Massagem e Motricidade Aplicada - Lisbon</li>
-          <ul>
-            <li>Spa and Balneotherapy-Therapist</li>
-          </ul>
-          <li>Escola de Massagem e Motricidade Aplicada - Lisbon</li>
-          <ul>
-            <li>Physiotherapist Assistant</li>
-          </ul>
-          <li>Escola Secundária de Camões - Lisbon</li>
-          <ul>
-            <li>High School</li>
-          </ul>
-        </ul>
-      </section>
-
-      <br />
+            <ul>
+              <li>Escola de Massagem e Motricidade Aplicada - Lisbon</li>
+              <ul>
+                <li>Spa and Balneotherapy-Therapist</li>
+              </ul>
+              <li>Escola de Massagem e Motricidade Aplicada - Lisbon</li>
+              <ul>
+                <li>Physiotherapist Assistant</li>
+              </ul>
+              <li>Escola Secundária de Camões - Lisbon</li>
+              <ul>
+                <li>High School</li>
+              </ul>
+            </ul>
+          </section>
+        </div>
+      </div>
     </main>
 
-    <footer>
+    <footer class="footer">
       <address>
         2021<a href="https://github.com/Joao17Duarte"> &copy; João Duarte</a>
       </address>
