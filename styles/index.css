@@ -48,6 +48,16 @@ a {
     font-size: 1rem;
 }
 */
+
+i {
+  font-size: 1.5rem;
+}
+
+i:hover {
+  font-size: 1.9rem;
+  color: #bbb;
+}
+
 footer {
   background: darkgray;
   padding-top: 15px;
@@ -55,10 +65,31 @@ footer {
   justify-content: center;
 }
 
+.profile-pic {
+  display: flex;
+  height: 75vh;
+  width: 85vw;
+}
+
 .main-header {
   margin: 0;
   background: lightblue;
   grid-area: 'nav';
+}
+
+.main-header a:hover {
+  font-size: 1.6rem;
+}
+
+.profile-pic,
+.skill,
+.biog,
+.contact,
+.external,
+.work,
+.school,
+.footer {
+  margin-bottom: 20px;
 }
 
 .shadow {
@@ -88,7 +119,7 @@ footer {
 @media only screen and (min-width: 500px) {
   .container {
     display: grid;
-    grid-template-columns: 50% 50%;
+
     grid-template-rows: auto;
     grid-template-areas:
       'skill contact'
@@ -96,6 +127,12 @@ footer {
       'work school'
       'footer footer';
     grid-gap: 10px;
+  }
+  .profile-pic {
+    display: flex;
+    height: 75vh;
+    width: 85vw;
+    justify-content: center;
   }
 
   .skill {
