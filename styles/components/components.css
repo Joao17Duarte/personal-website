@@ -1,6 +1,7 @@
 .main-header {
   margin: 0;
-  background: lightblue;
+  background: #2e2f2f;
+  color: white;
 }
 
 .main-header a:hover {
@@ -8,11 +9,12 @@
 }
 
 .profile-pic {
-  vertical-align: middle;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+  display: flex;
   margin: auto;
+  padding-top: 20px;
+  width: 50vw;
+  vertical-align: middle;
+  border-radius: 50%;
 }
 
 .external-link {
@@ -21,13 +23,13 @@
 
 i:hover {
   font-size: 1.9rem;
-  color: #bbb;
 }
 
 .shadow {
   padding: 20px;
   box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
-  background: white;
+  border-radius: 5%;
+  background: #bfbdc1;
 }
 
 .footer-link {
@@ -37,4 +39,9 @@ i:hover {
 
 .footer-link i {
   justify-content: space-evenly;
+}
+
+.footer i:hover {
+  font-size: 1.9rem;
+  color: #bbb;
 }

@@ -9,6 +9,7 @@ body {
   margin: 0;
   font-size: 112.5%;
   line-height: 1.5;
+  background: #eff1f3;
 }
 
 main {
@@ -48,7 +49,7 @@ i {
 }
 
 footer {
-  background: darkgray;
+  background: #6d6a75;
   padding-top: 15px;
   display: grid;
   justify-content: center;
