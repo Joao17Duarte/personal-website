@@ -19,7 +19,6 @@ header h1,
 a {
   margin: 0;
   padding: 10px 10px;
-  grid-area: 'nav';
 }
 
 h1 {
