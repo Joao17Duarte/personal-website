@@ -1,0 +1,53 @@
+@media only screen and (min-width: 500px) {
+  .container {
+    display: grid;
+
+    grid-template-rows: auto;
+    grid-template-areas:
+      'skill contact'
+      'about about'
+      'work school'
+      'footer footer';
+    grid-gap: 10px;
+  }
+  .profile-pic {
+    display: flex;
+    height: 75vh;
+    width: 85vw;
+    justify-content: center;
+  }
+
+  .skill {
+    text-align: center;
+    grid-area: skill;
+  }
+
+  .external {
+    margin-top: 10px;
+    grid-area: external;
+  }
+
+  .contact {
+    grid-area: contact;
+  }
+
+  .biog {
+    grid-column-start: span 3;
+    grid-area: about;
+  }
+  .biog h2 {
+    text-align: center;
+  }
+
+  .work {
+    grid-area: work;
+  }
+
+  .school {
+    grid-area: school;
+  }
+
+  .footer {
+    grid-area: footer;
+  }
+}

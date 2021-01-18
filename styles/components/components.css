@@ -1,0 +1,39 @@
+.main-header {
+  margin: 0;
+  background: lightblue;
+  grid-area: 'nav';
+}
+
+.main-header a:hover {
+  font-size: 1.6rem;
+}
+
+.profile-pic {
+  display: flex;
+  height: 75vh;
+  width: 85vw;
+}
+
+.external-link {
+  display: inline-block;
+}
+
+i:hover {
+  font-size: 1.9rem;
+  color: #bbb;
+}
+
+.shadow {
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  background: white;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-link i {
+  justify-content: space-evenly;
+}
