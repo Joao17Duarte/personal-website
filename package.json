@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "htmlhint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joao17Duarte/personal-website.git"
+  },
+  "author": "João Duarte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joao17Duarte/personal-website/issues"
+  },
+  "homepage": "https://github.com/Joao17Duarte/personal-website#readme",
+  "devDependencies": {
+    "htmlhint": "^0.14.2"
+  }
+}
