@@ -13,8 +13,9 @@
   .profile-pic {
     display: flex;
     height: 75vh;
-    width: 85vw;
+    width: 65vw;
     justify-content: center;
+    border-radius: 50%;
   }
 
   .skill {
