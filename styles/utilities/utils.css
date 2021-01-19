@@ -1,0 +1,13 @@
+.profile-pic,
+.skill,
+.biog,
+.contact,
+.external,
+.work,
+.school {
+  margin-bottom: 20px;
+}
+
+.subtitle-section {
+  padding-bottom: 10px;
+}

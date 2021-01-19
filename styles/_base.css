@@ -1,0 +1,56 @@
+* {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-size: 112.5%;
+  line-height: 1.5;
+  background: #eff1f3;
+}
+
+main {
+  padding: 0 15px;
+}
+
+header h1,
+a {
+  margin: 0;
+  padding: 10px 10px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 3rem;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+i {
+  font-size: 1.5rem;
+}
+
+footer {
+  background: #6d6a75;
+  padding-top: 15px;
+  display: grid;
+  justify-content: center;
+}

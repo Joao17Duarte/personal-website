@@ -1,0 +1,47 @@
+.main-header {
+  margin: 0;
+  background: #2e2f2f;
+  color: white;
+}
+
+.main-header a:hover {
+  font-size: 1.6rem;
+}
+
+.profile-pic {
+  display: flex;
+  margin: auto;
+  padding-top: 20px;
+  width: 50vw;
+  vertical-align: middle;
+  border-radius: 50%;
+}
+
+.external-link {
+  display: inline-block;
+}
+
+i:hover {
+  font-size: 1.9rem;
+}
+
+.shadow {
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  border-radius: 5%;
+  background: #bfbdc1;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-link i {
+  justify-content: space-evenly;
+}
+
+.footer i:hover {
+  font-size: 1.9rem;
+  color: #bbb;
+}
