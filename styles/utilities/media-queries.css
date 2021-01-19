@@ -10,13 +10,6 @@
       'footer footer';
     grid-gap: 15px;
   }
-  .profile-pic {
-    display: flex;
-    height: 40vh;
-    width: 30vw;
-    justify-content: center;
-    border-radius: 50%;
-  }
 
   .skill {
     text-align: center;
